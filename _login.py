@@ -11,3 +11,5 @@ def test_UiValDynamic_Script(page:Page):
     page.wait_for_timeout(4000)
 
     page.locator('[name="signin"]').click()
+
+    print("Successfully Type ")
